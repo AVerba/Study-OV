@@ -1,0 +1,16 @@
+.first-group-wnd, .second-group-wnd, .third-group-wnd {
+    display: inline-block;
+}
+.wrapper {
+    background-color: aquamarine;
+    width: 360px;
+    padding: 3px;
+}
+.my-color {
+     width: 100px; 
+}
+.foth-group-wnd {
+    display: inline-block;
+     margin-left: 65px; 
+     direction: rtl;
+}
