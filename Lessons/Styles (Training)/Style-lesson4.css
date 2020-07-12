@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* 1. Универсальные общие селекторы */
+* {font-family: 'Poppins', sans-serif;}
+
+/* 2. Селекторы по ТЕГУ */
+h1 {
+    font-size: 15px;
+    text-align: center;
+}
+p {
+    word-break: break-all;
+}
+/* 3. Селектор Класса */
+.main-body {
+    background-color: darkorange;
+    width: 50%;
+    height: 100vh;
+    margin-left: 25%;
+ }
+/* 4. Селекторы по идентификатору */
+#pt {
+    font-style: italic;
+}
+/* 5. Селекторы по атрибуту */
+a[href="http://google.com"] {
+    color: deeppink;
+    font-style: italic;
+    font-size: 15px;
+}
+/* 6. Селекторы потомка */
+.part-one p {
+background-color: darkorchid;
+}
+/* 7. Селекторы дочерние  */
+/* 8. Селекторы псевдокласов */
+a:hover {
+    background-color: floralwhite;
+}
+h2:hover {
+    font-style: italic;
+}
+a:focus {
+background-color: forestgreen;
+}
