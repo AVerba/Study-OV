@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+}
+.wrapper {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  width: 1120px;
+  height: 100vh;
+  background: url(./img/background.jpg);
+}
+.catalog-service {
+  width: 1120px;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.catalog-item {
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.item-title {
+  width: 200px;
+  height: 20px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+.item-text {
+  color: rgb(157, 157, 157);
+  line-height: 1.429;
+}
+.item-title {
+  font-weight: 40;
+  line-height: 1.714;
+}
+/* img {
+  filter: invert(1%) sepia(1%) saturate(1%) hue-rotate(1deg) brightness(1000%)
+    contrast(80%);
+} */
+/* .logo:hover .pic {
+  border-color: blue;
+  background: transparent;
+  border-style: solid;
+  border-width: 2px;
+  margin-bottom: -4px;
+} */
+/* .logo {
+    width: 64px;
+  height: 64px;
+  border-radius: 50%;
+    background-color: blue;
+  opacity: 0.6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */

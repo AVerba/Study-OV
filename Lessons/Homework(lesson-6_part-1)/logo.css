@@ -1,0 +1,57 @@
+#design-logo {
+  background: url(./img/Responsive_w.png);
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  background-color: blue;
+  opacity: 0.6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#customize-logo {
+  background: url(./img/customize_w.png);
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  background-color: blue;
+  opacity: 0.6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#reliable-logo {
+  background: url(./img/fast_w.png);
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  background-color: blue;
+  opacity: 0.6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#design-logo:hover {
+  border-color: #0069aa;
+  background: url(./img/Responsive_b.png);
+  background-color: transparent;
+  border-style: solid;
+  border-width: 2px;
+  margin-bottom: -4px;
+}
+#customize-logo:hover {
+  border-color: #0069aa;
+  background: url(./img/customize_b.png);
+  background-color: transparent;
+  border-style: solid;
+  border-width: 2px;
+  margin-bottom: -4px;
+}
+#reliable-logo:hover {
+  border-color: #0069aa;
+  background: url(./img/fast_b.png);
+  background-color: transparent;
+  border-style: solid;
+  border-width: 2px;
+  margin-bottom: -4px;
+}
