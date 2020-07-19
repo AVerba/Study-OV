@@ -53,6 +53,7 @@ body {
 }
 #second-item:hover .item-icon {
   background: url(./img/Diamond_w.png);
+  transition: 1s;
 }
 #third-item:hover .item-icon {
   background: url(./img/Eyeglasses_w.png);
