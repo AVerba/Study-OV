@@ -12,6 +12,8 @@ body {
   height: 100vh;
   padding: 0;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 .catalog {
   width: 940x;
@@ -60,7 +62,7 @@ body {
 }
 header p:first-child {
   margin-left: calc(50% - 100px);
-  padding-top: 100px;
+  padding-top: 50px;
   color: #898f99;
   font-family: Montserrat;
   font-size: 12px;
