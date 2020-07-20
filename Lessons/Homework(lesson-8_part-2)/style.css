@@ -1,118 +1,60 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.5/css/weather-icons.min.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   background-color: #3399cc;
   border-style: solid;
-  border-width: 20px;
+  border-width: 5%;
   border-color: #2b81ac;
-  margin: 0;
-  padding: 0;
-}
-.wrapper {
-  width: 970px;
+  width: 100vw;
   height: 100vh;
-  padding: 0;
-  width: 0;
-  margin: 0 auto;
-  text-align: center;
-  background-color: black;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  vertical-align: middle;
 }
+.propouse,
 .main-title {
-  font-family: "Open Sans", sans-serif;
   font-size: 20px;
-  margin: 0;
-  padding: 0;
-  text-align: left;
+  color: #fff;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  width: 500px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 30%;
+  text-align: center;
 }
 .catalog-city {
-  width: 960px;
-  height: 584px;
-  padding: 0;
-  margin: 0;
-  border-style: solid;
-  border-width: 4px;
-  border-color: #fff;
-  display: flex;
-  flex-wrap: wrap;
+  width: 70vw;
+  height: 50vh;
+  font-size: 0;
+  border: 0.5vh solid #fff;
+  margin-left: 15%;
 }
 .catalog-item {
-  border-style: solid;
-  border-width: 4px;
-  box-sizing: border-box;
-  vertical-align: middle;
-  text-align: center;
-  border-color: #fff;
-  color: #fff;
-  font-family: "Open Sans", sans-serif;
-  font-size: 20px;
-  margin: 0;
-  padding: 0;
-}
-.city {
-  width: 100%;
-  height: 40px;
   display: inline-block;
-  margin: 0;
-  padding-top: 5%;
-}
-.param {
-  width: 100%;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  padding-left: 7%;
-  margin: 2%, 0, 0, 0;
-  /*   padding: 0; */
-}
-.temp {
-  width: 80px;
-  height: 80px;
-  margin: 0;
-  padding: 0;
-}
-.icon {
-  width: 80px;
-  height: 80px;
-  margin: 0;
-  padding: 0;
-}
-
-#lisbon,
-#kyiv {
-  width: 50%;
-  height: 25%;
-}
-#paris,
-#belgrade,
-#moskow,
-#tel-aviv,
-#cair,
-#new-yourk,
-#new-dehli,
-#tokyo {
   width: 25%;
   height: 25%;
+  border: 0.5vh solid white;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 3vh;
+  color: #fff;
 }
 #sidney {
   width: 100%;
-  height: 25%;
+}
+#lisbon,
+#kyiv {
+  width: 50%;
 }
 .catalog-city:hover .catalog-item {
   opacity: 0.5;
 }
 .catalog-item[id]:hover {
   opacity: 1;
-}
-header,
-footer {
-  font-size: 20px;
-  color: #fff;
-  font-weight: 700;
-  line-height: 30px;
-  text-transform: uppercase;
-  font-family: "Open Sans", sans-serif;
-  width: 500px;
 }
