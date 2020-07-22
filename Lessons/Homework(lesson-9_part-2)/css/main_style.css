@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #383838;
+}
+.wrapper {
+  width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+  position: relative;
+  background-color: #464f54;
+}
+.main-text {
+  width: 1060px;
+  height: 100vh;
+  position: absolute;
+  top: 149px;
+  left: 70px;
+  background-color: #ffffff;
+}
+.main-title {
+  width: 876px;
+  height: 187px;
+  position: absolute;
+  box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
+  background-color: #181818;
+  z-index: 1;
+  top: 47px;
+  left: 324px;
+}
+.comand {
+  font-size: 0;
+  position: absolute;
+  z-index: 1;
+  top: 234px;
+  left: 390px;
+  width: 750px;
+  height: 76px;
+  box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
+  background-color: #fbc02d;
+  margin-left: 20px;
+}
+.comand-iyem {
+  display: inline-block;
+  font-size: 25px;
+  width: 54px;
+  margin-top: 20px;
+  opacity: 0.5;
+}
+.comand-iyem img {
+  width: 30px;
+  height: 30px;
+}
+.main-title :first-child {
+  width: 380px;
+  height: 40px;
+  color: #fefefe;
+  font-family: "Playfair Display";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 94.03px;
+  padding-left: 84px;
+}
+.main-title :last-child {
+  width: 792px;
+  height: 3px;
+  background-color: #ffffff;
+  opacity: 0.1;
+  margin: 21px 0 0 84px;
+}
+.main-text :first-child {
+  width: 260px;
+  height: 17px;
+  color: #b4b4b4;
+  font-family: "Proxima Nova";
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 6.72px;
+  margin-top: 202px;
+  margin-left: 125px;
+}
+.main-text :nth-child(2) {
+  width: 850px;
+  height: 54px;
+  color: #2a2a2a;
+  font-family: "Futura PT - Heavy";
+  font-size: 78px;
+  font-weight: 400;
+  line-height: 73.52px;
+  text-transform: uppercase;
+  letter-spacing: 5.28px;
+  margin-top: 47px;
+  margin-left: 127px;
+}
+.main-text :nth-child(3) {
+  width: 600px;
+  height: 30px;
+  color: #8f8f8f;
+  font-family: Georgia;
+  font-style: italic;
+  font-size: 30px;
+  line-height: 62.44px;
+  margin-top: 21px;
+  margin-left: 123px;
+}
+.main-text :nth-child(4) {
+  width: 806px;
+  height: 143px;
+  color: #000000;
+  font-family: Georgia;
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 40.38px;
+  font-family: Georgia;
+  margin-top: 55px;
+  margin-left: 124px;
+}
