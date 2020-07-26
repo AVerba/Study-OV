@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #e2e7ec;
+  margin: 0 auto;
+  text-align: center;
+}
+.blog {
+  width: 1122px;
+  height: 1109px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.blog_item {
+  width: 360px;
+  height: 540px;
+  font-size: 3px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px 5px 5px 5px;
+}
+.blog_item:nth-child(1) {
+  width: 730px;
+  height: 540px;
+  background: url(./img/pic_1.png);
+}
+.blog_item:nth-child(2) {
+  background: url(./img/pic_2.png);
+}
+.blog_item:nth-child(3) {
+  background: url(./img/pic_3.png);
+}
+.blog_item:nth-child(4) {
+  background: url(./img/pic_4.png);
+}
+.blog_item:nth-child(5) {
+  background: url(./img/pic_5.png);
+}
+.author-pic {
+  width: 54px;
+  height: 54px;
+  background: url(./img/author-pic.png);
+}
+.blog-item__date {
+  width: 133px;
+  height: 13px;
+  color: #818181;
+  font-family: "Hans Kendrick";
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.33px;
+  margin-top: 279px;
+  margin-left: 28px;
+}
+.blog-item__title {
+  width: 307px;
+  height: 78px;
+  color: #1d1d1d;
+  font-family: "Hans Kendrick";
+  text-align: left;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.55px;
+  margin-top: 21px;
+  margin-left: 27px;
+}
+.blog_item:nth-child(1) .blog-item__date {
+  width: 132px;
+  height: 13px;
+  opacity: 0.5;
+  color: #ffffff;
+  color: #818181;
+  font-family: "Hans Kendrick";
+  text-align: left;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 0.33px;
+  margin-top: 404px;
+  margin-left: 46px;
+}
+
+.blog_item:nth-child(1) .blog-item__title {
+  width: 433px;
+  height: 60px;
+  color: #ffffff;
+  color: #1d1d1d;
+  font-family: "Hans Kendrick";
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 0.75px;
+  margin-top: 23px;
+  margin-left: 43px;
+}
+.author-pic {
+  margin-top: 70px;
+  margin-left: 28px;
+}

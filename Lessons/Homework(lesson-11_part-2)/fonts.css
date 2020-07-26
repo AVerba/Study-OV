@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Hans Kendrick";
+  src: url("./font/HansKendrick-Regular.eot");
+  src: local("☺"), url("./font/HansKendrick-Regular.woff") format("woff"),
+    url("./font/HansKendrick-Regular.ttf") format("truetype"),
+    url("fonts/HansKendrick-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
