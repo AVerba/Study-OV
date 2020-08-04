@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.conteiner {
+  margin: 0 auto;
+  text-align: center;
+}
+.modal-win {
+  width: 400px;
+  height: 496px;
+  box-shadow: 0 0 20px rgba(2, 41, 120, 0.253);
+  display: inline-block;
+  background-image: linear-gradient(32deg, #3023ae 0%, #c86dd7 100%), url(./img/img_1.jpg);
+}
+.main__item {
+  display: flex;
+  flex-direction: column;
+}
+.main__item--checkbox {
+  text-align: left;
+  margin-left: 65px;
+  margin-top: 22px;
+}
+.form__label {
+  width: 140px;
+  height: 12px;
+  color: #fbf6e4;
+  font-family: Quicksand;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 18px;
+  margin-left: 33px;
+}
+.form__label--checkbox {
+  width: 140px;
+  height: 12px;
+  color: #fbf6e4;
+  font-family: Quicksand;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 18px;
+}
+
+.form__input {
+  width: 261px;
+  height: 42px;
+  border: 2px solid rgba(191, 185, 204, 0.54);
+  background-color: #e5eeee;
+  margin-top: 11px;
+  margin-left: 65px;
+}
+.btn-dubmit {
+  width: 261px;
+  height: 42px;
+  background-color: #23ae92;
+  color: #fbf6e4;
+  font-family: Quicksand;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 41px;
+}
+.sum-menu {
+  display: flex;
+  justify-content: center;
+  margin-top: 33px;
+}
+.sub-menu__item {
+  width: 150px;
+  height: 12px;
+  color: #b9b9cc;
+  font-family: Quicksand;
+  font-size: 13px;
+  font-weight: 400;
+  list-style-type: none;
+}
+.top-menu {
+  display: flex;
+  justify-content: center;
+  margin-top: 33px;
+}
+.top-menu__item {
+  width: 100px;
+  height: 25px;
+  color: #fbf6e4;
+  font-family: Quicksand;
+  font-size: 18px;
+  font-weight: 700;
+  list-style-type: none;
+  padding-bottom: 4px;
+  box-sizing: border-box;
+}
+.top-menu__item:hover {
+  padding-bottom: 2;
+  border-bottom: 2px solid #ff6033;
+}

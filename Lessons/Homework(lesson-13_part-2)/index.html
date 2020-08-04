@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="conteiner">
+      <div class="main-body">
+        <div class="main-body__label">Contact</div>
+        <div class="main-body__message">
+          For new projects, ideas, business or anything you'd like to discuss, contact with me!
+        </div>
+        <form action="#" method="GET">
+          <div class="row display">
+            <div class="User-info">
+              <div class="form">
+                <label class="form__label" for="Username"></label>
+                <input class="form__input" minlength="3" type="text" name="Username" id="Username" placeholder="User name and surname" />
+                <label class="form__label" for="User-email"></label>
+                <input class="form__input display" minlength="3" type="text" name="User-email" id="User-email" placeholder="User E-mail" />
+                <label class="form__label" for="User-phone"></label>
+                <input class="form__input display" minlength="13" type="text" name="User-phone" id="User-phone" data-mask="+38 (000) 000 00 00" placeholder="+38 (___) ___ __ __" />
+                <label class="form__label" for="User-message"></label>
+                <textarea class="form__textarea" name="User-message" id="User-message" cols="30" rows="10" placeholder="Type some text"></textarea>
+              </div>
+            </div>
+            <div class="contact-info">
+              <div class="contact-info__adress">
+                <div class="title">ADDRESS</div>
+                <div class="info">123 City name, Street, City, Country</div>
+              </div>
+              <div class="contact-info__email">
+                <div class="title">EMAIL</div>
+                <div class="info">cahee@domain.com</div>
+              </div>
+              <div class="contact-info__phone">
+                <div class="title">PHONE</div>
+                <div class="info">+012 345 6789</div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <footer class="main-footer display">
+        <div class="copyright">© 2015 Company. All right reserved.</div>
+        <div class="logo">
+          <img class="logo__img" src="./img/logo-small.png" alt="" />
+        </div>
+        <div class="author">Made with <span class="author__span">love</span> by Auskteez</div>
+      </footer>
+    </div>
+    <script src="./plugins/jquery.mask.min.js"></script>
+  </body>
+</html>
